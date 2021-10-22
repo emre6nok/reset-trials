@@ -1,8 +1,6 @@
-# reset-trials
+## reset trial times for mac
 
-reset trial times for mac
+    Applications:
 
-applications:
-
-SmartGit
-Nacivat Premium
+     1. SmartGit
+     2. Nacivat Premium
