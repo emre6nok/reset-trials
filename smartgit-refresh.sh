@@ -8,7 +8,6 @@ files=("license" "preferences.yml")
 
 for file in "${files[@]}" 
 do
-   fileWay="${folderName}${file}"
    rm -i ${folderName}${file}
 done
 
