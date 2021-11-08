@@ -1,17 +1,16 @@
 #!/bin/bash
 # SmartGit Refresh Trial-Time
-# Creator: Emre Altınok
 
 version="21.1"
-folderName="/Users/$USER/Library/Preferences/SmartGit/${version}/"
-backupName=".backup"
+mainFolder="/Users/$USER/Library/Preferences/SmartGit/${version}/"
+backupFolder=".backup"
 files=("license" "preferences.yml" "settings.xml")
 
 for file in "${files[@]}" 
 do
-   rm -i ${folderName}${file}
+   rm -i ${mainFolder}${file}
 done
 
-rm -rf ${folderName}${backupName}
+rm -rf ${mainFolder}${backupFolder}
 
 echo "SmartGit successfully reset trial time."
