@@ -3,4 +3,4 @@
     Applications:
 
      1. SmartGit
-     2. Nacivat Premium
+     2. Navicat Premium
