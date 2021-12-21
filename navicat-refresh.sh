@@ -1,5 +1,5 @@
 #!/bin/bash
-# Nacivat Refresh Trial-Time
+# Navicat Refresh Trial-Time
 
 file=$(defaults read ~/Library/Preferences/com.prect.NavicatPremium15.plist)
 regex="([0-9A-Z]{32}) =     {"
