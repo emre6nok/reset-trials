@@ -17,6 +17,6 @@ regex="\.([0-9A-Z]{32})"
 
 rm .${BASH_REMATCH[1]}
 
-echo "Nacivat successfully reset trial time."
+echo "Navicat successfully reset trial time."
 
 cd -
